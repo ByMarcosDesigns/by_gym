@@ -74,7 +74,7 @@ ESP | INSTALACION!
 
   )
 
-#ESP
+# ESP
   Hola a todos, bienvenidos a mi repositorio. El dia de hoy vengo a presentar mi sistema de gym para esx. Espero que les guste mucho y si tienen algun problema no duden en   
   contactarme! A continuacion voy a enseñarles como pueden configurar el script!
   

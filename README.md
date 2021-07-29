@@ -43,9 +43,10 @@ ESP | INSTALACION!
   )
 
   #Config.Zones (This is where the magic is, we have two types of insoles, the tineda and the knitted ones for exercising. : 
-  
-  Tienda : 
-    tinedaGym = {
+
+  #shop  
+
+    shopGym = {
         ['pos'] = vector3(0.0, 0.0, 0.0), --Here we will put the coordinates where the store point will be
         ['dist'] = 2, --This is the distance that must be between the player and the tineda for it to display the message (I recommend leaving it like this)
         ['type'] = 'shop', --That is the type of point that it is, that there are two and they are 'shop' and 'gym'
@@ -54,8 +55,9 @@ ESP | INSTALACION!
             { label = 'Membership', value = 'ship' },
         }
     },
-  
-  Punto de ejercicio:
+    
+   #Exercice
+
     exercice = {
         ['pos'] = vector3(0.0, 0.0, 0.0), --Here we will put the coordinates where the point of the exercise will be
         ['dist'] = 2, --This is the distance that must be between the player and the tineda for it to display the message (I recommend leaving it like this)
@@ -96,7 +98,7 @@ ESP | INSTALACION!
 
   #Config.Zones (Aqui es donde esta la magia, tenemos dos tipos de plantillas, las de tineda y las de punto para hacer ejercicio. : 
   
-  Tienda : 
+  # Tienda : 
     tinedaGym = {
         ['pos'] = vector3(0.0, 0.0, 0.0), --Aqui pondremos las coordenadas donde va a estar el punto de tienda
         ['dist'] = 2, --Esto es la distancia que tiene que haber entre el jugador y la tineda para que muestre el mensaje (recomiendo dejarlo asi)
@@ -107,7 +109,7 @@ ESP | INSTALACION!
         }
     },
   
-  Punto de ejercicio:
+  # Punto de ejercicio:
     exercice = {
         ['pos'] = vector3(0.0, 0.0, 0.0), --Aqui pondremos las coordenadas donde va a estar el punto del ejercicio
         ['dist'] = 2, --Esto es la distancia que tiene que haber entre el jugador y la tineda para que muestre el mensaje (recomiendo dejarlo asi)

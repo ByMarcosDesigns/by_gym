@@ -26,12 +26,12 @@ ESP | INSTALACION!
 
   !Config explanation
   
-  #Config.MemberShipPrice (This section is used to set the price of the MemberShipp)
-  #Config.EnableSkills (This is useful in case you want to put the skills in the gym)
-  #Config.NameExportSkill (This is the name of the script you use from the scripting system)
-  #Config.TextToGym (Text that you can see at the points of the gym where you exercise)
-  #Config.Text3d (This section serves to put if you use a 3d text or one on the 2d screen the one you like the most)
-  #Config.TimerToRest (The time it takes to be able to do an exercise again)
+  1. Config.MemberShipPrice (This section is used to set the price of the MemberShipp)
+  2. Config.EnableSkills (This is useful in case you want to put the skills in the gym)
+  3. Config.NameExportSkill (This is the name of the script you use from the scripting system)
+  4. Config.TextToGym (Text that you can see at the points of the gym where you exercise)
+  5. Config.Text3d (This section serves to put if you use a 3d text or one on the 2d screen the one you like the most)
+  6. Config.TimerToRest (The time it takes to be able to do an exercise again)
 
   #Config.Items (Here you will put the items that are going to be sold in the gym store, here you have a template to put more objects : 
 
@@ -80,14 +80,14 @@ ESP | INSTALACION!
   
   !Explicacion config 
   
-  #Config.MemberShipPrice (Este apartado sirve para poner el precio de el MemberShip)
-  #Config.EnableSkills (Esto sirve  por si quieren poner las skills en el gym)
-  #Config.NameExportSkill (Esto es el nombre del script que usais del sistema de scripts)
-  #Config.TextToGym (Texto que podras ver en los puntos del gym en los que se hace ejercicio)
-  #Config.Text3d (Este apartado sirve para poner si se usa un texto 3d o uno en la pantalla 2d el que mas les guste)
-  #Config.TimerToRest (El tiempo que tarda en poder volver a hacer un ejercicio)
+  1. Config.MemberShipPrice (Este apartado sirve para poner el precio de el MemberShip)
+  2. Config.EnableSkills (Esto sirve  por si quieren poner las skills en el gym)
+  3. Config.NameExportSkill (Esto es el nombre del script que usais del sistema de scripts)
+  4. Config.TextToGym (Texto que podras ver en los puntos del gym en los que se hace ejercicio)
+  5. Config.Text3d (Este apartado sirve para poner si se usa un texto 3d o uno en la pantalla 2d el que mas les guste)
+  6. Config.TimerToRest (El tiempo que tarda en poder volver a hacer un ejercicio)
   
-  #Config.Items (Aqui se pondran los items que se van a vender en la tienda del gym, aqui teneis una plantilla para poner mas objetos : 
+  7. Config.Items (Aqui se pondran los items que se van a vender en la tienda del gym, aqui teneis una plantilla para poner mas objetos : 
 
     {
         ['item'] = 'water', --Aqui va el nombre que tiene el item en la base de datos.
@@ -96,7 +96,7 @@ ESP | INSTALACION!
     },
   )
 
-  #Config.Zones (Aqui es donde esta la magia, tenemos dos tipos de plantillas, las de tineda y las de punto para hacer ejercicio. : 
+  8. Config.Zones (Aqui es donde esta la magia, tenemos dos tipos de plantillas, las de tineda y las de punto para hacer ejercicio. : 
   
   # Tienda : 
     tinedaGym = {

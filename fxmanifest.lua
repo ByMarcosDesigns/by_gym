@@ -2,7 +2,7 @@ fx_version 'cerulean'
 games { 'gta5' }
 
 author 'ByMarcosDesigns'
-description 'ByShopsScript | Script para vender diferentes items'
+description 'by_gym | Script to use the gym v1.0'
 version '1.0.0'
 
 client_scripts {
@@ -11,7 +11,6 @@ client_scripts {
 }
 
 server_scripts {
-    '@mysql-async/lib/MySQL.lua',
     'config.lua',
     'server/*.lua'
 }
